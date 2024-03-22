@@ -1,0 +1,82 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+
+.main h1 {
+  font-size: 1.7rem;
+  margin-bottom: 1.6rem;
+  font-weight: 800;
+}
+
+.main h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1px;
+}
+.main p{
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  
+  color:grey;
+}
+
+.starIcon{
+  color: #FFD700;
+  font-size: 1rem;
+  margin-right: 0.3rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.starDiv{
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.thumbStyle{
+  display: flex;
+ space-between:10px;
+
+}
+
+.thumbStyle img{
+
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.thumbStyle p{
+  margin-right: 3rem;
+  color:grey;
+  font-weight: 600;
+}
+
+.btn{
+
+  color: black;
+  padding: 0.5rem 1rem;
+
+  border: 1px gray solid;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-left: 1rem;
+
+  font-weight: 600;
+}
+
+
+.activeBtn{
+  color: black;
+  padding: 0.5rem 1rem;
+  border: 1px green solid;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-weight: 600;
+  background-color: lightgreen;
+}
